@@ -11,6 +11,8 @@ function! ale#fixers#prettier#GetExecutable(buffer) abort
     \   'node_modules/.bin/prettier_d',
     \   'node_modules/prettier-cli/index.js',
     \   'node_modules/.bin/prettier',
+    \   'usr/local/bin/prettier_d',
+    \   'usr/local/bin/prettier',
     \])
 endfunction
 
